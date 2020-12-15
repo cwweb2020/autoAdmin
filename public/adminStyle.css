@@ -1,0 +1,20 @@
+
+table{
+    width: 80%;
+    margin: auto;
+}
+img{
+    width: 11.8rem;
+    height: 6.62rem;
+    object-fit: cover;
+}
+th{
+    padding: 9.3rem;
+    font-size: 1.1rem;
+}
+td{
+    /*font-size: 1.06rem;*/
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}

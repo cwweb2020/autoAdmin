@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+h1,h2,h3,h4{
+    font-size: 3.3rem;
+}
+h4{
+    margin: 3.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+p{
+    font-size: 1.7rem;
+}
+ul li{
+    font-size: 1.6rem;
+}
+.contenedor .fila ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.contenedor .fila ul li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.contenedor .fila ul li img{
+    width: 25rem;
+    margin: 1rem;
+    width: 25rem;
+    height: 16.6rem;
+    object-fit: cover;
+}
+.contenedor .fila ul li p{
+    padding: 1rem;
+    width: 270px;
+}
+.imgModal{
+    width: 76rem;
+    height: 55rem;
+    object-fit: cover;
+}
+.slider{
+    margin-bottom: 10rem;
+}
+.botones{
+    display: flex;
+    width: 39vw;
+    height: 9vh;
+    margin: 0 0 2rem 12%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.botones button{
+    padding: 0.9rem 1rem;
+    overflow: hidden;
+    box-shadow: 0 1px 3px black;
+    border: none;
+    width: 14rem;
+    height: 5rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background: lightgrey;
+}
+.botones button:hover{
+    background: white;
+}
+
+
+
