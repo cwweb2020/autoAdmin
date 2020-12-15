@@ -63,9 +63,35 @@ class AdminController extends Controller{
        return view('Admin.edit',compact('id'));
     }
 
-    public function update(Request $request, Car $id){
+   /* public function update(Request $request, Car $id){
 
        $id->foto=$request->foto;
+       $id->marca=$request->marca;
+       $id->comentario=$request->comentario;
+
+       $id->save();
+
+       return redirect('admin');
+    }  */
+
+    public function update(Request $request, Car $id){
+        //sie l cliente cambia la foto
+        if($_FILES['foto']['name'] != ""){
+      
+            //dovidoel nombre de la foto en un array
+            $idFotoVieja = explode('/',$id->foto);
+            //selecciono el nombre del archivo
+            $idFoto = $idFotoVieja[3];
+            //eliminio agregando /public/img al path
+            Storage::delete('/public/img/'.$idFoto);
+            //tomo el archivo nuevo del cliente
+            $imagenes=$request->file('foto')->store('public/img');
+            //guardo el file en storage
+            $url=Storage::url($imagenes);
+            //asigno el nuevo nombre a la foto para el registro
+            $id->foto=$url;
+        }        
+      
        $id->marca=$request->marca;
        $id->comentario=$request->comentario;
 

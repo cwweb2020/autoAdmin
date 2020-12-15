@@ -30,9 +30,8 @@
           @method('put')
 
           <div class="mb-3">
-            <label class="form-label">Foto</label>
-            <input name="foto" type="text" class="form-control" required value="{{$id->foto}}">
-        <!--    <input name="foto" type="file" class="" required accept="image/*"> -->
+            <label class="form-label">Foto</label> <br>
+           <input name="foto" type="file" class="" accept="image/*"> 
             <img src="{{$id->foto}}" class="mt-2">
             @error('foto')
                <p class="text-danger">La extension del archivo es incorrecta</p> 
@@ -51,6 +50,7 @@
           </div>
           
           <button type="submit" class="btn btn-dark">Editar</button>
+          <a href="{{route('index')}}" class="btn btn-danger">CANCELAR</a>
         </form>
         
       <!--fin del formulario -->

@@ -41,7 +41,7 @@ ul li{
     object-fit: cover;
 }
 .contenedor .fila ul li p{
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     width: 270px;
 }
 .imgModal{

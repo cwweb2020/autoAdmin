@@ -28,7 +28,7 @@
         <form action="{{route('admin.store')}}" class="w-50 mx-auto mb-4" method="POST" enctype="multipart/form-data">
           @csrf
           <div class="mb-3">
-            <label class="form-label">Foto</label>
+            <label class="form-label">Foto</label><br>
             <input name="foto" type="file" class="" required accept="image/*">
             @error('foto')
                <p class="text-danger">La extension del archivo es incorrecta</p> 
@@ -48,6 +48,7 @@
           </div>
           
           <button type="submit" class="btn btn-dark">Crear Nuevo</button>
+          <a href="{{route('index')}}" class="btn btn-danger">CANCELAR</a>
         </form>
         
       <!--fin del formulario -->
