@@ -41,7 +41,7 @@ class AdminController extends Controller{
 
         $imagenes=$request->file('foto')->store('public/img');
         $url=Storage::url($imagenes);
-        
+
          $car=new Car();
 
          $car->foto=$url;
@@ -57,6 +57,24 @@ class AdminController extends Controller{
 
        
     }
+
+    public function edit(Car $id){
+
+       return view('Admin.edit',compact('id'));
+    }
+
+    public function update(Request $request, Car $id){
+
+       $id->foto=$request->foto;
+       $id->marca=$request->marca;
+       $id->comentario=$request->comentario;
+
+       $id->save();
+
+       return redirect('admin');
+    }
+
+
 
 
 

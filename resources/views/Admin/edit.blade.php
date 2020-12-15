@@ -15,7 +15,7 @@
         
         
             @section('content_header')
-                 <h3 class="text-primary">CREAR</h3>
+                 <h3 class="text-primary">EDITAR</h3>
              @stop
         
         @section('content')
@@ -25,29 +25,32 @@
              <div class="card-body">
 
           
-        <form action="{{route('admin.store')}}" class="w-50 mx-auto mb-4" method="POST" enctype="multipart/form-data">
+        <form action="{{route('admin.update',$id)}}" class="w-50 mx-auto mb-4" method="POST" enctype="multipart/form-data">
           @csrf
+          @method('put')
+
           <div class="mb-3">
             <label class="form-label">Foto</label>
-            <input name="foto" type="file" class="" required accept="image/*">
+            <input name="foto" type="text" class="form-control" required value="{{$id->foto}}">
+        <!--    <input name="foto" type="file" class="" required accept="image/*"> -->
+            <img src="{{$id->foto}}" class="mt-2">
             @error('foto')
                <p class="text-danger">La extension del archivo es incorrecta</p> 
             @enderror
           </div>
-  
+   
             <div class="mb-3">
               <label class="form-label">Marca</label>
-              <input name="marca" type="text" class="form-control" required>
+              <input name="marca" type="text" class="form-control" required value="{{$id->marca}}">
             </div>
           
   
           <div class="mb-3">
             <label class="form-label">Descripcion</label>
-          <!--  <input wire:model="comentario" type="text" class="form-control" style="height: 100px">-->
-            <textarea name="comentario" class="p-2" cols="85" rows="5" required></textarea>
+            <textarea name="comentario" class="p-2" cols="85" rows="5" required>{{$id->comentario}}</textarea>
           </div>
           
-          <button type="submit" class="btn btn-dark">Crear Nuevo</button>
+          <button type="submit" class="btn btn-dark">Editar</button>
         </form>
         
       <!--fin del formulario -->

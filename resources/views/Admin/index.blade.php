@@ -43,7 +43,8 @@
                    <td>{{$auto->marca}}</td>
                    <td>{{$auto->comentario}}</td>
                    <td class="d-flex flex-column">
-                       <button wire:click="edit({{$auto}})" class=" btn btn-primary my-3">EDITAR</button>
+                      
+                       <a href="{{route('admin.edit',$auto)}}" class="btn btn-primary my-3">EDITAR</a>
                        <button class=" btn btn-danger">BORRAR</button>
                    </td>
                   
