@@ -100,6 +100,19 @@ class AdminController extends Controller{
        return redirect('admin');
     }
 
+    public function destroy(Car $id){
+       
+        $id->delete();
+
+        $idFotoVieja = explode('/',$id->foto);
+        //selecciono el nombre del archivo
+        $idFoto = $idFotoVieja[3];
+        //eliminio agregando /public/img al path
+        Storage::delete('/public/img/'.$idFoto);
+
+        return redirect('admin');
+    }
+
 
 
 

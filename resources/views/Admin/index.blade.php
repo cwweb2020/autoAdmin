@@ -45,7 +45,13 @@
                    <td class="d-flex flex-column">
                       
                        <a href="{{route('admin.edit',$auto)}}" class="btn btn-primary my-3">EDITAR</a>
-                       <button class=" btn btn-danger">BORRAR</button>
+                       <form class="formDelete" action="{{route('admin.destroy',$auto)}}" method="POST">
+                        @csrf
+                        @method('delete')
+                           <button class="btn btn-danger botonForm" type="submit">ELIMINAR</button>
+
+                       </form>
+                       
                    </td>
                   
                    

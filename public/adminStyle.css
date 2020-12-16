@@ -18,3 +18,7 @@ td{
     text-transform: capitalize;
     font-weight: 600;
 }
+
+.formDelete .botonForm{
+    width: 100%;
+}
