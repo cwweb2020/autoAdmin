@@ -18,6 +18,8 @@
         
         @section('content')
 
+        
+
           
       <a href="{{route('admin.crear')}}" class="btn btn-success mb-4">CREAR PRODUCTO</a>
      
@@ -63,8 +65,7 @@
            
    </div>
    </div>
-   
-   
+
     
         @stop
         
@@ -72,12 +73,9 @@
        
         @section('js')
            <script>
-          /*     
-        Swal.fire(
-          'Agregado',
-          'Transaccion realizada con exito',
-          'success'
-        );  */
+           
+         
+
            $(document).ready(function() {
                $('#example').DataTable({
                    responsive:true

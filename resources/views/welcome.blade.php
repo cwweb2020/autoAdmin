@@ -2,7 +2,12 @@
 
 @section('content')
 
-
+      <section class="jumboPadre">
+          <div class="jumboHijo">
+              <h2>Tienda Cars</h2>
+              <h3>Bienvenidos</h3>
+          </div>
+      </section>
 
  
 
@@ -16,19 +21,19 @@
                 <button class="negro" onclick="Mercedes('audi')">Audi</button>
              </div>
             <ul id="contenedor">
-                
+
                 @foreach ($autos as $auto)
-    
-            <li><img src="..{{$auto->foto}}" alt="" class="materialboxed">  <b><p style="text-transform: uppercase">Marca: {{$auto->marca}}</p></b><p>{{$auto->comentario}}</p> </li>
-                    
+          
+                 <li><img src="..{{$auto->foto}}" alt="" class="materialboxed">  <b><p style="text-transform: uppercase">Marca: {{$auto->marca}}</p></b><p>{{$auto->comentario}}</p> </li>
+           
                 @endforeach
-    
+
             </ul>
             
         </div>
     </div>
    
-
+  
     
      <script>  
      // seccion 
