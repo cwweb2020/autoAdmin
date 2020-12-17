@@ -29,26 +29,34 @@
           @csrf
           <div class="mb-3">
             <label class="form-label">Foto</label><br>
-            <input name="foto" type="file" class="" required accept="image/*">
+            <span id="boton-foto" class="btn btn-dark">Elegir imagen</span>
+            <input name="foto" type="file" class="" required accept="image/*" hidden id="dialogo-foto">
             @error('foto')
                <p class="text-danger">La extension del archivo es incorrecta</p> 
             @enderror
           </div>
   
             <div class="mb-3">
-              <label class="form-label">Marca</label>
-              <input name="marca" type="text" class="form-control" required>
+              <label class="form-label">Marca</label><br>
+              <select name="marca" id="marca" required class="form-control">
+                <option selected="true" disabled="disabled">--Seleccione la marca--</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="Audi">Audi</option>
+                <option value="Honda">Honda</option>
+                <option value="BMW">BMW</option>
+                <option value="VW">VW</option>
+              </select>
             </div>
           
   
           <div class="mb-3">
             <label class="form-label">Descripcion</label>
           <!--  <input wire:model="comentario" type="text" class="form-control" style="height: 100px">-->
-            <textarea name="comentario" class="p-2" cols="85" rows="5" required></textarea>
+            <textarea name="comentario"  cols="85" rows="5" required class="form-control"></textarea>
           </div>
           
           <button type="submit" class="btn btn-dark">Crear Nuevo</button>
-          <a href="{{route('index')}}" class="btn btn-danger">CANCELAR</a>
+          <a href="{{route('index')}}" class="btn btn-danger">Cancelar</a>
         </form>
         
       <!--fin del formulario -->
@@ -73,6 +81,11 @@
                    responsive:true
                });
            } );
+          let botonFoto = document.getElementById('boton-foto');
+          let dialogoFoto = document.getElementById('dialogo-foto');
+          botonFoto.addEventListener('click', () =>{
+             dialogoFoto.click();
+          });
             
            </script>
 
