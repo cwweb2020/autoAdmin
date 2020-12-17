@@ -1,3 +1,12 @@
+@extends('adminlte::page')
+
+@section('title', 'Dashboard')
+
+@section('content_header')
+    <h1>Dashboard</h1>
+@stop
+
+@section('content')
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
@@ -41,3 +50,14 @@
         </div>
     </div>
 </x-app-layout>
+@stop
+
+
+@section('css')
+   <style>
+       .wrapper{
+           width: 80%;
+           margin: auto;
+       }
+   </style>
+@stop

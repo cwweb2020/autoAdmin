@@ -233,7 +233,7 @@ return [
     'menu' => [
         [
             'text' => 'search',
-            'search' => true,
+            'search' => false,
             'topnav' => true,
         ],
         [
@@ -242,24 +242,20 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
+            'text'        => 'articulos',
+            'url'         => 'admin',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
             'label_color' => 'success',
         ],
-        ['header' => 'account_settings'],
+        ['header' => 'Configuracion de cuenta'],
         [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
+            'text' => 'perfil usurario',
+            'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
-        [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
+      
+      /*  [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
@@ -296,20 +292,21 @@ return [
                     'url'  => '#',
                 ],
             ],
-        ],
+        ],  */
+       
         ['header' => 'labels'],
         [
-            'text'       => 'important',
+            'text'       => 'menu 1',
             'icon_color' => 'red',
-            'url'        => '#',
+            'url'        => 'home',
         ],
         [
-            'text'       => 'warning',
+            'text'       => 'menu 2',
             'icon_color' => 'yellow',
             'url'        => '#',
         ],
         [
-            'text'       => 'information',
+            'text'       => 'menu 3',
             'icon_color' => 'cyan',
             'url'        => '#',
         ],
