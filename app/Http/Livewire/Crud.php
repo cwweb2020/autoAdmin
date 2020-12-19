@@ -34,14 +34,6 @@ class Crud extends Component{
 
     }
 
-    public function edit(Post $auto){
-
-             $this->foto=$auto->foto;
-             $this->marca=$auto->marca;
-             $this->comentario=$auto->comentario;
-       
-    }
-
   
 
 

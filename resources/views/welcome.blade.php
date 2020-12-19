@@ -1,17 +1,18 @@
 @extends('template.plantilla')
 
-@section('content')
+@section('content') 
 
-      <section class="jumboPadre">
-          <div class="jumboHijo">
-              <h2>Tienda Cars</h2>
-              <h3>Bienvenidos</h3>
-          </div>
-      </section>
+          <!--COMPONENTE HEADER -->
+             <x-header/>
+          <!--COMPONENTE HEADER -->
 
- 
-
-
+           <!--HERO -->
+             <section class="hero">
+                 <img src="{{asset('img/pc.jpg')}}" alt="" class="responsive-img">
+             </section>
+            <!--HERO -->
+            
+   
     <div class="contenedor">
         <div class="fila">
             <h4>Clásicos: </h4>
@@ -60,7 +61,7 @@
               })
        
       } 
-
+      AOS.init();
     </script>
     
 @endsection

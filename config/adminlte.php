@@ -14,8 +14,8 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
-    'title_prefix' => '',
+    'title' => '',
+    'title_prefix' => 'Agencia cars | ',
     'title_postfix' => '',
 
     /*
@@ -64,12 +64,12 @@ return [
     |
     */
 
-    'usermenu_enabled' => true,
+    'usermenu_enabled' => false,
     'usermenu_header' => false,
     'usermenu_header_class' => 'bg-primary',
     'usermenu_image' => false,
     'usermenu_desc' => false,
-    'usermenu_profile_url' => true,
+    'usermenu_profile_url' => false,
 
     /*
     |--------------------------------------------------------------------------
@@ -242,15 +242,15 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'articulos',
+            'text'        => 'Articulos',
             'url'         => 'admin',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
+            'label'       => '',
             'label_color' => 'success',
         ],
-        ['header' => 'Configuracion de cuenta'],
+        ['header' => 'CONFIGURACION DE CUENTA'],
         [
-            'text' => 'perfil usurario',
+            'text' => ' PERFIL USUARIO',
             'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
