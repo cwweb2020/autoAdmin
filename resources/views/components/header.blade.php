@@ -5,7 +5,7 @@
             <h4>Bienvenidos</h4>
           <div class="barrita2">
             
-             <a href="https://www.facebook.com/buonasalutedietetica/" target="_blank"><span><i class="fab fa-facebook-f f"></i></span></a>
+             <a href="" target="_blank"><span><i class="fab fa-facebook-f f"></i></span></a>
              <a href=""><span><i class="fab fa-instagram i"></i></span></a>
              <a href=""><span><i class="fab fa-twitter t"></i></span></a>
              <a href=""><span><i class="fab fa-pinterest p"></i></span></a>

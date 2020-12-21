@@ -144,7 +144,7 @@ ul li{
 }
 .secNav .secNavwrapper{
     display: flex;
-    height: 16vh;
+    height: 15vh;
     width: 100%;
 }
 
@@ -187,6 +187,9 @@ ul li{
     border-radius: 8px;
     color: white;
     font-weight: 600;
+    height: 5rem;
+    display: flex;
+    align-items: center;
 }
 .headerTotal{
     position: absolute;
