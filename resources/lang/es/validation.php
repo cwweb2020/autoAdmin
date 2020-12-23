@@ -38,7 +38,7 @@ return [
     'digits_between'       => ':attribute debe tener entre :min y :max dígitos.',
     'dimensions'           => 'Las dimensiones de la imagen :attribute no son válidas.',
     'distinct'             => 'El campo :attribute contiene un valor duplicado.',
-    'email'                => ':attribute no es un correo válido.',
+    'email'                => 'El :attribute no es un correo válido.',
     'ends_with'            => 'El campo :attribute debe finalizar con uno de los siguientes valores: :values',
     'exists'               => ':attribute es inválido.',
     'file'                 => 'El campo :attribute debe ser un archivo.',
@@ -86,7 +86,7 @@ return [
     'min'                  => [
         'numeric' => 'El tamaño de :attribute debe ser de al menos :min.',
         'file'    => 'El tamaño de :attribute debe ser de al menos :min kilobytes.',
-        'string'  => ':attribute debe contener al menos :min caracteres.',
+        'string'  => 'El :attribute debe contener al menos :min caracteres.',
         'array'   => ':attribute debe tener al menos :min elementos.',
     ],
     'multiple_of'          => 'El campo :attribute debe ser múltiplo de :value',

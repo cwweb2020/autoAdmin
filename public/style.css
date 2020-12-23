@@ -6,9 +6,10 @@
 }
 html{
     font-size: 10px;
+    overflow-x: hidden;
 }
-h1,h2,h3,h4{
-    font-size: 3.3rem;
+h1,h2,h3,h4,h5{
+    text-align: center;
 }
 h4{
     margin: 3.5rem;
@@ -28,6 +29,7 @@ ul li{
     width: 85%;
     margin: auto;
     flex-wrap: wrap;
+    display: none;
 }
 .contenedor .fila ul li{
     display: flex;
@@ -63,6 +65,7 @@ ul li{
     margin: 0 0 2rem 12%;
     justify-content: space-evenly;
     align-items: center;
+    display: none;
 }
 .botones button{
     padding: 0.9rem 1rem;
@@ -82,6 +85,8 @@ ul li{
 .green:hover{
     transform: scale(1.02);
 }
+
+/**-----------------ESTILOS DEL COMPONENTE HEADER**/
  /*barra de arriba*/
 
  .barrita1{
@@ -93,6 +98,9 @@ ul li{
     font-size: 1.4rem; 
     justify-content: space-between;
     align-items: center;
+}
+.space{
+    opacity: 0;
 }
 .barrita2{
     display: flex;
@@ -185,7 +193,7 @@ ul li{
     background-color: orange;
     padding: 0 2rem;
     border-radius: 8px;
-    color: white;
+    color: black;
     font-weight: 600;
     height: 5rem;
     display: flex;
@@ -196,6 +204,8 @@ ul li{
     top: 0;
     left: 0;
 }
+
+/**-----------------ESTILOS DEL COMPONENTE HEADER**/
 
 .hero{
     width: 100%;
