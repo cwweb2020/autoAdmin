@@ -160,6 +160,7 @@ ul li{
     flex: 1;
     background: rgb(0, 0, 0,0.8);
     border-right: 8px solid #639bf7;
+    box-shadow: 0 0 4px black;
 }
 .secNav .secNavwrapper .relleno h1{
     font-family: 'Shadows Into Light', cursive;

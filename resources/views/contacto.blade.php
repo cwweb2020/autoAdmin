@@ -15,18 +15,17 @@
 
       <div class="contactotelefono">
        <img src="img/telefonito.png" alt="teleffono">
-        <p class="contactotelefonotelefono">Movil / whatsapp : <span class="contactoContenido"> 341 - 265 - 7879 </span></p>
+        <p class="contactotelefonotelefono">Movil / whatsapp : <span class="contactoContenido"> 341 - 366 - 3127 </span></p>
       </div>
 
       <div class="contactotelefono contactotelefonob">
         <img src="img/gps.png" alt="teleffono">
-         <p class="contactotelefonotelefono">Dirección : <span class="contactoContenido"> San Martín 1796, Rosario </span></p>
+         <p class="contactotelefonotelefono">Dirección : <span class="contactoContenido"> San Martín 1000, Rosario </span></p>
        </div>
 
        <div class="contactotelefono contactotelefonob">
         <img src="img/email.png" alt="teleffono">
-         <p class="contactotelefonotelefono">e-mail : <span class="contactoContenido"> Morena3soledad
-           @gmail.com</span></p>
+         <p class="contactotelefonotelefono">e-mail : <span class="contactoContenido"> correoelectronico@gmail.com</span></p>
        </div>
 
        <div class="contactotelefono contactotelefonob contactotelefonoultimo">
