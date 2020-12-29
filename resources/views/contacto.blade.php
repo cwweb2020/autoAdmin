@@ -57,7 +57,7 @@
                     <input class="inPut" type="text" name="email" placeholder="email*" value="{{old('email')}}">
                     {!! $errors->first('email','<b>:message</b>') !!}
 
-                    <input class="inPut" type="text" name="tel" placeholder="Telefono" value="{{old('tel')}}">
+                    <input class="inPut" type="text" name="tel" placeholder="Telefono Opcional" value="{{old('tel')}}">
                     <textarea name="mensaje" placeholder="Mensaje*" cols="30" rows="10" class="areaTexto">{{old('mensaje')}}</textarea>
                     {!! $errors->first('mensaje','<b>:message</b>') !!}
 

@@ -7,10 +7,8 @@
     <title>Mensaje Recibido</title>
 </head>
 <body>
-      @php
-          $mensaje['tel']=0;
-      @endphp
-    <h4>Recibiste un mensaje de {{$mensaje['nombre']}}</h4>
+     
+    <h4>Recibiste un mensaje de: {{$mensaje['nombre']}}</h4>
     <p>Email :{{$mensaje['email']}} </p>
      <p>Telefono: {{$mensaje['tel']}}</p>
     <p>Asunto: {{$mensaje['mensaje']}}</p>

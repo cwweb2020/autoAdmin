@@ -17,7 +17,8 @@ class ContactController extends Controller
        $mensaje= $request->validate([
             'nombre' => 'required',
             'email' => 'required|email',
-            'mensaje' => 'required|min:10'
+            'mensaje' => 'required|min:10',
+            'tel' => 'nullable'
         ]);
   
       Mail::to($request->email)->queue(new MensajeRecibido($mensaje));
