@@ -1,4 +1,5 @@
 @extends('template.plantilla')
+
     <link rel="stylesheet" href="{{asset('contactoestilo.css')}}">
 @section('content')
 
@@ -8,6 +9,12 @@
      <!--div de margen-->
  </div>
   
+ @if (session('status'))
+
+ <h4 class="sesion">{{ session('status') }}</h4>
+ 
+@endif
+
 <!--contacto-->
 <section class="contacto" id="contactoabajo">
     <div class="contacto1 isolate"> 
@@ -50,6 +57,7 @@
               
                 <form method="POST" action="{{route('contacto.store')}}" class="formulariohijo">
                     <h2>Contacto</h2>
+
                    @csrf
                     <input class="inPut" type="text" name="nombre" placeholder="Nombre*" value="{{old('nombre')}}">
                       {!! $errors->first('nombre','<b>:message</b>') !!}

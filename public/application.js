@@ -18,3 +18,26 @@ $(document).ready(function (e) {
 
 
   });
+
+  // MENU LATERAL 
+  let titulo = document.getElementById('tituloproducto')
+  let listado = document.querySelectorAll('.cat')
+  let notebook = document.querySelector('.cat1')
+
+  notebook.style.backgroundColor = 'grey'
+
+  console.log(listado);
+  for (let index = 0; index < listado.length; index++) {
+    const element = listado[index];
+    element.addEventListener('click',function (e) { 
+       
+        titulo.innerHTML=this.innerHTML
+        for (let index = 0; index < listado.length; index++) {
+          const element = listado[index];
+          element.style.backgroundColor = null
+         
+      }
+      this.style.backgroundColor = 'grey'
+     })
+     
+   }

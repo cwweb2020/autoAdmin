@@ -23,7 +23,9 @@ class ContactController extends Controller
   
       Mail::to($request->email)->queue(new MensajeRecibido($mensaje));
 
-       return 'Mensaje Enviado';
+      return redirect()->route('contacto.contact')->with('status','Mensaje Enviado, gracias por contactarse con nosotros.');
+
+  
        
      }
 }

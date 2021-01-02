@@ -11,11 +11,7 @@ html{
 h1,h2,h3,h4,h5{
     text-align: center;
 }
-h4{
-    margin: 3.5rem;
-    text-align: center;
-    font-weight: 500;
-}
+
 p{
     font-size: 1.7rem;
 }
@@ -218,5 +214,102 @@ ul li{
     height: 100%;
     object-fit: cover;
 }
+
+
+/**-----------------ESTILOS PRODUCTOS.........**/
+
+.productWrapper{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(249 246 192 / 51%) ;
+}
+.productWrapper .tituloProducto{
+    margin: 0;
+    padding-top: 6rem;
+}
+/*....alerta gris ...*/
+.productWrapper .alertCurso{
+    /*background: #fbfbf8;*/
+    background: #fdf88a;
+    width: 85%;
+    box-shadow: 0 1.5px 4px grey;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    margin: 4rem auto;
+    padding: 2rem;
+}
+.productWrapper .alertCurso span{
+    margin-right: 2rem;
+    font-size: 3rem;
+    color: mediumvioletred;
+}
+.productWrapper .alertCurso .span2{
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 600;
+}
+.productWrapper .alertCurso .barra{
+    margin: 0 10px;
+}
+
+/*-----------------MENU LATERAL  ----*/
+.productWrapper .menuLista{
+    width: 22%;
+    background: black;
+}
+
+.productWrapper  .menuLista ul li{
+    text-decoration: none;
+    height: 67px;
+    color: yellow;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 700;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+.productWrapper  .menuLista ul li span{
+    font-size: 12px;
+}
+.productWrapper  .cardList{
+    flex: 1;
+    padding-left: 11px;
+}
+.productoEnvoltura .menuLista ul li:first-child{
+    color: white;
+    letter-spacing: 2.2px;
+    background: crimson;
+   
+}
+
+.productoEnvoltura .menuLista ul li:hover{
+    cursor: pointer;
+   /* background: grey;*/
+}
+.productoEnvoltura .menuLista ul .primerhijo:hover{
+    background: crimson;
+    cursor: default;
+}
+.productoEnvoltura{
+    width: 95%;
+    margin: 7rem auto;
+}
+/*...... titulo de la lista ....*/
+.productWrapper .titulodelista span{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 
 
