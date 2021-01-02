@@ -225,7 +225,13 @@ ul li{
 }
 .productWrapper .tituloProducto{
     margin: 0;
-    padding-top: 6rem;
+    background: black;
+    color: yellow;
+    margin-top: 6rem;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*....alerta gris ...*/
 .productWrapper .alertCurso{
@@ -255,7 +261,7 @@ ul li{
 
 /*-----------------MENU LATERAL  ----*/
 .productWrapper .menuLista{
-    width: 22%;
+    flex-basis: 22%;
     background: black;
 }
 
@@ -297,12 +303,33 @@ ul li{
 .productoEnvoltura{
     width: 95%;
     margin: 7rem auto;
+    display: flex;
 }
 /*...... titulo de la lista ....*/
 .productWrapper .titulodelista span{
     display: none;
 }
 
+/*-------------TARJETAS-------------*/
+.tarjetasTotal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 78%;
+}
+.tarjetasTotal .tarjetasWrapper{
+    width: 22%;
+}
+.tarjetasTotal .tarjetasWrapper .contenedorImagen{
+    width: 100%;
+}
+.tarjetasTotal .tarjetasWrapper .contenedorImagen img{
+    width: 100%;
+}
+/* .tarjetasTotal .tarjetasWrapper .contenidoTarjeta{} 
+.tarjetasTotal .tarjetasWrapper .contenidoTarjeta h4{} */
+.tarjetasTotal .tarjetasWrapper .contenidoTarjeta p{
+    padding: 1rem;
+}
 
 
 
