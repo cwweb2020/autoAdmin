@@ -35,16 +35,21 @@
                <p class="text-danger">La extension del archivo es incorrecta</p> 
             @enderror
           </div>
-  
+
             <div class="mb-3">
-              <label class="form-label">Marca</label><br>
-              <select name="marca" id="marca" required class="form-control">
-                <option selected="true" disabled="disabled">--Seleccione la marca--</option>
-                <option value="Mercedes">Mercedes</option>
-                <option value="Audi">Audi</option>
-                <option value="Honda">Honda</option>
-                <option value="BMW">BMW</option>
-                <option value="VW">VW</option>
+              <label class="form-label">Marca</label> <br>
+              <input type="text" name="titulo" required>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Categoria</label><br>
+              <select name="categoria" id="marca" required class="form-control">
+                <option selected="true" disabled="disabled">--Seleccione la categoria--</option>
+                <option value="Notebook">Notebook</option>
+                <option value="Pc Escritorio">Pc Escritorio</option>
+                <option value="Memoria">Memoria</option>
+                <option value="Rigido">Rigido</option>
+                <option value="Mother">Mother</option>
               </select>
             </div>
           

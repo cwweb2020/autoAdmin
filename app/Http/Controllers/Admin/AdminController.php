@@ -45,7 +45,8 @@ class AdminController extends Controller{
          $car=new Car();
 
          $car->foto=$url;
-         $car->marca=$request->marca;
+         $car->titulo=$request->titulo;
+         $car->categoria=$request->categoria;
          $car->comentario=$request->comentario;
 
          $car->save();
@@ -92,9 +93,10 @@ class AdminController extends Controller{
             $id->foto=$url;
         }        
       
-       $id->marca=$request->marca;
+       $id->categoria=$request->categoria;
+       $id->titulo=$request->titulo;
        $id->comentario=$request->comentario;
-
+     
        $id->save();
 
        return redirect('admin');

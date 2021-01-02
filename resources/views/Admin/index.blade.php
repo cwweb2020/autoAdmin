@@ -32,6 +32,7 @@
                   <th class="h4">Id</th>
                   <th class="h4">Foto</th>
                   <th class="h4">Marca</th>
+                  <th class="h4">Categoria</th>
                   <th class="h4">Descripcion</th>
                   <th class="h4">Editar</th>
                 
@@ -41,8 +42,9 @@
                @foreach ($autos as $auto)
                <tr>
                   <td>{{$auto->id}}</td>
-                   <td><img src="..{{$auto->foto}}"> </td>
-                   <td>{{$auto->marca}}</td>
+                   <td><img src="{{$auto->foto}}"> </td>
+                   <td>{{$auto->titulo}}</td>
+                   <td>{{$auto->categoria}}</td>
                    <td>{{$auto->comentario}}</td>
                    <td class="d-flex flex-column">
                       

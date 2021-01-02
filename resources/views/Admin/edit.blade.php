@@ -40,7 +40,7 @@
    
             <div class="mb-3">
               <label class="form-label">Marca</label>
-              <input name="marca" type="text" class="form-control" required value="{{$id->marca}}">
+              <input name="titulo" type="text" class="form-control" required value="{{$id->titulo}}">
             </div>
           
   
