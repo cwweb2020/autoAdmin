@@ -20,9 +20,9 @@ class HomeController extends Controller
 
      // $autos = Car::table('users')->where('votes', 100)->get();
 
-      $autos = Car::where('categoria', $marcaAuto)->get();
+      $productos = Car::where('categoria', $marcaAuto)->get();
 
-      return $autos;
+      return $productos;
 
 
    }

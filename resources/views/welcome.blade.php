@@ -72,27 +72,7 @@
 
 
 
-    <div class="contenedor">
-        <div class="fila">
-           
-            <div class="botones">
-               <a href="{{ route('home.index') }}"> <button class="green">Todos</button></a>
-                <button class="rojo" onclick="Producto('pc_escritorio')">Mercedes</button>
-                <button class="negro" onclick="Mercedes('audi')">Audi</button>
-             </div>
-            <ul>
 
-                @foreach ($autos as $auto)
-          
-                 <li><img src="..{{$auto->foto}}" alt="" class="materialboxed">  <b><p style="text-transform: uppercase">Marca: {{$auto->marca}}</p></b><p>{{$auto->comentario}}</p> </li>
-           
-                @endforeach
-
-            </ul>
-            
-        </div>
-    </div>
-   
   
     
      <script>  
