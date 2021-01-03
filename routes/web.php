@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class,'index'])->name('home.index');
 
-Route::get('/mostrar{marcaAuto}', [HomeController::class,'show']);
+Route::get('/mostrar{categoria}', [HomeController::class,'show']);
 
 Route::get('/contacto', [HomeController::class,'contact'])->name('contacto.contact');
 

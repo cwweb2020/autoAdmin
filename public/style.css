@@ -263,6 +263,7 @@ ul li{
 .productWrapper .menuLista{
     flex-basis: 22%;
     background: black;
+    height: 80vh;
 }
 
 .productWrapper  .menuLista ul li{
@@ -277,6 +278,13 @@ ul li{
     justify-content: space-between;
     letter-spacing: 1.5px;
     font-size: 16px;
+}
+.productWrapper .menuLista ul li button{
+    background: none;
+    border: none;
+    color: yellow;
+    font-size: 16px;
+    font-weight: 800;
 }
 .productWrapper  .menuLista ul li span{
     font-size: 12px;
@@ -306,6 +314,10 @@ ul li{
     display: flex;
 }
 /*...... titulo de la lista ....*/
+.productWrapper .titulodelista{
+    background: none;
+    border: none;
+}
 .productWrapper .titulodelista span{
     display: none;
 }
@@ -315,9 +327,11 @@ ul li{
     display: flex;
     justify-content: space-evenly;
     flex-basis: 78%;
+    flex-wrap: wrap;
 }
 .tarjetasTotal .tarjetasWrapper{
-    width: 22%;
+    width: calc(100% /3.6 - 20px);
+    margin-bottom: 3rem;
 }
 .tarjetasTotal .tarjetasWrapper .contenedorImagen{
     width: 100%;
@@ -325,10 +339,14 @@ ul li{
 .tarjetasTotal .tarjetasWrapper .contenedorImagen img{
     width: 100%;
 }
+.tarjetasTotal .tarjetasWrapper .contenidoTarjeta h4{
+    text-transform: capitalize;
+}
 /* .tarjetasTotal .tarjetasWrapper .contenidoTarjeta{} 
-.tarjetasTotal .tarjetasWrapper .contenidoTarjeta h4{} */
+ */
 .tarjetasTotal .tarjetasWrapper .contenidoTarjeta p{
     padding: 1rem;
+    text-transform: capitalize;
 }
 
 

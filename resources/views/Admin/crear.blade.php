@@ -46,7 +46,7 @@
               <select name="categoria" id="marca" required class="form-control">
                 <option selected="true" disabled="disabled">--Seleccione la categoria--</option>
                 <option value="Notebook">Notebook</option>
-                <option value="Pc Escritorio">Pc Escritorio</option>
+                <option value="Pc_Escritorio">Pc Escritorio</option>
                 <option value="Memoria">Memoria</option>
                 <option value="Rigido">Rigido</option>
                 <option value="Mother">Mother</option>

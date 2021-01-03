@@ -93,7 +93,7 @@ class AdminController extends Controller{
             $id->foto=$url;
         }        
       
-       $id->categoria=$request->categoria;
+     //  $id->categoria=$request->categoria;
        $id->titulo=$request->titulo;
        $id->comentario=$request->comentario;
      

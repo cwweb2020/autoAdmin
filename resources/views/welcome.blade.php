@@ -30,71 +30,35 @@
                            <div class="menuLista">
                                <ul id="listado">
                                 <li class="primerhijo">CATEGORIAS</li>
-                                   <li class="cat cat1">Notebooks<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat">Pc Esctritorio<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat">Hardware/Memorias<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat">Hardware/Disc Rigidos<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat">Hardware/ Placas<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat cat1" onclick="Producto('notebook')">Notebooks<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('pc_escritorio')">Pc Esctritorio<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('memoria')">Hardware/Memorias<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('rigido')">Hardware/Disc Rigidos<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('mother')">Hardware/ Placas<span><i class="fas fa-chevron-down"></i></span></li>
                                </ul>
                            </div>
                            <!--MENU LATERAL-->
                           
                             <!--TARJETA TOTAL-->
-                           <div class="tarjetasTotal">
+                           <div class="tarjetasTotal" id="contenedor">
 
+                     @foreach ($autos as $auto)
                             <!--TARJETA -->
                               <div class="tarjetasWrapper">
                                    <div class="contenedorImagen">
-                                       <img src="{{asset('img/pc1.png')}}" alt="">
+                                       <img src="..{{$auto->foto}}" alt="">
                                    </div>
                                   <div class="contenidoTarjeta">
-                                      <h4>HP 255 G7</h4>  
+                                      <h4>{{$auto->titulo}}</h4>  
                                       <p>
-                                        Pantalla de 15.6" 
-                                        Microprocesador A9-9425
-                                        Memoria RAM 8GB DDR4
-                                        Disco Rigido 1TB
-                                        Sistema Windows 10
+                                        {{$auto->comentario}}
                                        </p>
                                   </div>
                               </div>
                             <!--TARJETA -->
+                     @endforeach
+                          
 
-                              <!--TARJETA -->
-                              <div class="tarjetasWrapper">
-                                <div class="contenedorImagen">
-                                    <img src="{{asset('img/pc1.png')}}" alt="">
-                                </div>
-                               <div class="contenidoTarjeta">
-                                   <h4>HP 255 G7</h4>  
-                                   <p>
-                                    Pantalla de 15.6" 
-                                    Microprocesador A9-9425
-                                    Memoria RAM 8GB DDR4
-                                    Disco Rigido 1TB
-                                    Sistema Windows 10
-                                    </p>
-                               </div>
-                           </div>
-                         <!--TARJETA -->
-
-                           <!--TARJETA -->
-                           <div class="tarjetasWrapper">
-                            <div class="contenedorImagen">
-                                <img src="{{asset('img/pc1.png')}}" alt="">
-                            </div>
-                           <div class="contenidoTarjeta">
-                               <h4>HP 255 G7</h4>  
-                              <p>
-                                 Pantalla de 15.6" 
-                                 Microprocesador A9-9425
-                                 Memoria RAM 8GB DDR4
-                                 Disco Rigido 1TB
-                                 Sistema Windows 10
-                              </p> 
-                           </div>
-                       </div>
-                     <!--TARJETA -->
                            </div>
                             <!--TARJETA TOTAL-->
                     </div>
@@ -113,10 +77,10 @@
            
             <div class="botones">
                <a href="{{ route('home.index') }}"> <button class="green">Todos</button></a>
-                <button class="rojo" onclick="Mercedes('mercedes')">Mercedes</button>
+                <button class="rojo" onclick="Producto('pc_escritorio')">Mercedes</button>
                 <button class="negro" onclick="Mercedes('audi')">Audi</button>
              </div>
-            <ul id="contenedor">
+            <ul>
 
                 @foreach ($autos as $auto)
           
@@ -136,8 +100,8 @@
 
      let seccion = document.getElementById('contenedor')
    
-      function Mercedes (marcaAuto) {
-        fetch('http://127.0.0.1:8000/mostrar'+marcaAuto)
+      function Producto (categoria) {
+        fetch('http://127.0.0.1:8000/mostrar'+categoria)
         .then(res => res.json() )
         .then(res => {
             seccion.innerHTML=''
@@ -145,8 +109,20 @@
                const i = res[index];
                console.log(i);
             seccion.innerHTML+=`
-            <li><img src="${i.foto}" class="materialboxed"> <b><p style="text-transform: uppercase">Marca: ${i.marca}</p></b><p>${i.comentario}</p> </li>
-            
+            <!--TARJETA -->
+                              <div class="tarjetasWrapper">
+                                   <div class="contenedorImagen">
+                                       <img src="${i.foto}" alt="">
+                                   </div>
+                                  <div class="contenidoTarjeta">
+                                      <h4>${i.titulo}</h4>  
+                                      <p>
+                                        ${i.comentario}
+                                       </p>
+                                  </div>
+                              </div>
+             <!--TARJETA -->
+                    
             `
                
            }
