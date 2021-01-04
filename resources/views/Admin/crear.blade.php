@@ -15,7 +15,7 @@
         
         
             @section('content_header')
-                 <h3 class="text-primary">CREAR</h3>
+                 <h3 class="text-primary">CREAR PRODUCTO</h3>
              @stop
         
         @section('content')

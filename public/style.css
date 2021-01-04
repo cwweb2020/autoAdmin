@@ -261,7 +261,8 @@ ul li{
 
 /*-----------------MENU LATERAL  ----*/
 .productWrapper .menuLista{
-    flex-basis: 22%;
+   /* flex-basis: 22%; */
+    width: 22%;
     background: black;
     height: 80vh;
 }
@@ -324,14 +325,23 @@ ul li{
 
 /*-------------TARJETAS-------------*/
 .tarjetasTotal{
-    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    grid-gap: 3rem;
+    width: 78%;
+    grid-template-rows: 410px;
+   /* display: flex;
     justify-content: space-evenly;
     flex-basis: 78%;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 .tarjetasTotal .tarjetasWrapper{
-    width: calc(100% /3.6 - 20px);
-    margin-bottom: 3rem;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 1px 3px grey;
+   /* width: calc(100% /3.6 - 20px);
+    margin-bottom: 3rem; */
 }
 .tarjetasTotal .tarjetasWrapper .contenedorImagen{
     width: 100%;
