@@ -222,6 +222,7 @@ ul li{
     width: 100%;
     min-height: 100vh;
     background: rgb(249 246 192 / 51%) ;
+    padding-bottom: 3rem;
 }
 .productWrapper .tituloProducto{
     margin: 0;
@@ -343,6 +344,11 @@ ul li{
    /* width: calc(100% /3.6 - 20px);
     margin-bottom: 3rem; */
 }
+/* .tarjetasTotal .tarjetasWrapper:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1px 14px grey;
+    transition: all 500ms;
+}  */
 .tarjetasTotal .tarjetasWrapper .contenedorImagen{
     width: 100%;
     height: 42%;

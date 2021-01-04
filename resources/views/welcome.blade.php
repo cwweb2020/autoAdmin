@@ -32,9 +32,9 @@
                                 <li class="primerhijo">CATEGORIAS</li>
                                    <li class="cat cat1" onclick="Producto('notebook')">Notebooks<span><i class="fas fa-chevron-down"></i></span></li>
                                    <li class="cat" onclick="Producto('pc_escritorio')">Pc Esctritorio<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat" onclick="Producto('memoria')">Hardware/Memorias<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat" onclick="Producto('rigido')">Hardware/Disc Rigidos<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat" onclick="Producto('mother')">Hardware/ Placas<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('partes')">Hardware/Partes<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('rigido')">Perifericos <span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('mother')">xxxxxx<span><i class="fas fa-chevron-down"></i></span></li>
                                </ul>
                            </div>
                            <!--MENU LATERAL-->

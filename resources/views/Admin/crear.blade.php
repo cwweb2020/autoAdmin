@@ -47,9 +47,9 @@
                 <option selected="true" disabled="disabled">--Seleccione la categoria--</option>
                 <option value="Notebook">Notebook</option>
                 <option value="Pc_Escritorio">Pc Escritorio</option>
-                <option value="Memoria">Memoria</option>
-                <option value="Rigido">Rigido</option>
-                <option value="Mother">Mother</option>
+                <option value="Partes">H/Partes</option>
+                <option value="Perifericos">Perifericos</option>
+                <option value="Mother">xxxxx</option>
               </select>
             </div>
           
