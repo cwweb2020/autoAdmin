@@ -29,16 +29,14 @@
 
 
  
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems);
-  });
-
-
    
-    </script>
-   
+
+      <!--BOTON DE WAPP-->
+          <a href="https://wa.link/q98u14" target="_blank">
+           <button class="flotante2"><i class="fab fa-whatsapp" style="font-size: 4rem;"></i></button>
+         </a>
+     <!--BOTON DE WAPP-->
+
     @livewireScripts
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -8,10 +8,16 @@
 
            <!--HERO -->
              <section class="hero">
-                 <img src="{{asset('img/pc.jpg')}}" alt="" class="responsive-img">
+              <img src="{{asset('img/pc.bmp')}}" alt="computadora" class="responsive-img">
+           
              </section>
             <!--HERO -->
-            
+
+             <!--WHOWEARE -->
+                <x-whoweare/>
+             <!--WHOWEARE -->
+
+
         <!--PRODUCTOS -->
         <section class="productWrapper">
             <h2 class="tituloProducto">
@@ -21,20 +27,20 @@
             <div class="alert alertCurso">
                 <span><i class="fas fa-exclamation-circle"></i></span>  <span class="span2">¿Tenes alguna duda sobre nuestros productos o servicios?<span class="barra">|</span>Contactate para un ASESORAMIENTO PERSONALIZADO.</span>  
                </div>
-                    <h2 class="titulodelista" style="margin: 0; font-size:3rem;" id="tituloproducto">
-                       Notebooks
-                     </h2>
+                    <h2 class="titulodelista" style="margin: 0;" id="tituloproducto">
+                       Notebooks 
+                     </h2> 
 
                     <div class="productoEnvoltura">
                         <!--MENU LATERAL-->
                            <div class="menuLista">
                                <ul id="listado">
-                                <li class="primerhijo">CATEGORIAS</li>
+                                <li class="primerhijo">CATEGORIAS <span style="width: 20px"><i class="fas fa-angle-double-down" style="font-size:22px"></i></span></li>
                                    <li class="cat cat1" onclick="Producto('notebook')">Notebooks<span><i class="fas fa-chevron-down"></i></span></li>
                                    <li class="cat" onclick="Producto('pc_escritorio')">Pc Esctritorio<span><i class="fas fa-chevron-down"></i></span></li>
                                    <li class="cat" onclick="Producto('partes')">Hardware/Partes<span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat" onclick="Producto('rigido')">Perifericos <span><i class="fas fa-chevron-down"></i></span></li>
-                                   <li class="cat" onclick="Producto('mother')">xxxxxx<span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('perifericos')">Periféricos <span><i class="fas fa-chevron-down"></i></span></li>
+                                   <li class="cat" onclick="Producto('notebook')">xxxxx<span><i class="fas fa-chevron-down"></i></span></li>
                                </ul>
                            </div>
                            <!--MENU LATERAL-->
@@ -67,14 +73,10 @@
         <!--PRODUCTOS -->
 
          <!--PARALAX CON QUIENES SOMOS -->
+
           <!--PARALAX CON QUIENES SOMOS -->
+     
 
-
-
-
-
-  
-    
      <script>  
      // seccion 
 
@@ -111,7 +113,13 @@
               })
        
       } 
-      AOS.init();
-    </script>
     
+    </script>
+
+
+    <x-footer/>
+
+    <p class="micw">
+        CW.Web <a href="bmx347@gmail.com">&copy</a>; 2021, All Rights Reserved.
+     </p>
 @endsection

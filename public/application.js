@@ -42,3 +42,36 @@ $(document).ready(function (e) {
      })
      
    }
+
+// move 
+(function () { 
+  $('#produp').on('click',function(){
+    var position= $('.titulodelista').offset().top;
+    $('bod,html').animate({
+        scrollTop:position + 'px'
+    },1100);
+    cerrar.Close();
+});
+
+$('#whoup').on('click',function(){
+  var position= $('#whodown').offset().top;
+  $('bod,html').animate({
+      scrollTop:position + 'px'
+  },1100);
+  cerrar.Close();
+});
+
+ })()
+
+ // Iniciar AOS
+
+ AOS.init({
+      delay: 100,
+      duration:1700
+ });
+
+
+
+
+
+

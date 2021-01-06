@@ -47,7 +47,7 @@
                 <option selected="true" disabled="disabled">--Seleccione la categoria--</option>
                 <option value="Notebook">Notebook</option>
                 <option value="Pc_Escritorio">Pc Escritorio</option>
-                <option value="Partes">H/Partes</option>
+                <option value="Partes">Hard/Partes</option>
                 <option value="Perifericos">Perifericos</option>
                 <option value="Mother">xxxxx</option>
               </select>
@@ -57,7 +57,7 @@
           <div class="mb-3">
             <label class="form-label">Descripcion</label>
           <!--  <input wire:model="comentario" type="text" class="form-control" style="height: 100px">-->
-            <textarea name="comentario"  cols="85" rows="5" required class="form-control"></textarea>
+            <textarea name="comentario" maxlength="125" cols="85" rows="5" required class="form-control" id="txtarea"></textarea>
           </div>
           
           <button type="submit" class="btn btn-dark">Crear Nuevo</button>
@@ -93,6 +93,8 @@
           });
             
            </script>
+
+             
 
            <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
            <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
