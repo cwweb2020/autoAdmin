@@ -42,7 +42,7 @@
        <h4 class="seguinosredes">Seguinos en las redes</h4>
      
       <div class="contactoredes"> 
-        <a href="https://wa.link/gz986h" target="_blank"><span><i class="fab fa-whatsapp wap"></i></span></a>
+        <a href="https://wa.link/q98u14" target="_blank"><span><i class="fab fa-whatsapp wap"></i></span></a>
         <a href="https://www.facebook.com/ivana.salud" target="_blank"><span><i class="fab fa-facebook face"></i> </span></a>
         <a href="https://www.instagram.com/ivana.salud/" target="_blank"><span><i class="fab fa-instagram insta"></i></span></a>
         <a href="#"> <span><i class="fab fa-twitter twit"></i> </span></a>

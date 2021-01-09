@@ -1,4 +1,4 @@
-$(document).ready(function (e) { 
+/* $(document).ready(function (e) { 
 
   
   let btnrojo = document.querySelector('.rojo')
@@ -14,10 +14,8 @@ $(document).ready(function (e) {
 })
 
 
- 
 
-
-  });
+  }); */
 
   // MENU LATERAL 
   let titulo = document.getElementById('tituloproducto')
@@ -49,7 +47,7 @@ $(document).ready(function (e) {
     var position= $('.titulodelista').offset().top;
     $('bod,html').animate({
         scrollTop:position + 'px'
-    },1100);
+    },1300);
     cerrar.Close();
 });
 
@@ -69,6 +67,10 @@ $('#whoup').on('click',function(){
       delay: 100,
       duration:1700
  });
+
+// ____________________________
+
+
 
 
 

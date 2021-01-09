@@ -1,6 +1,6 @@
 <div>
   <section class="whowrap" id="whodown">
-        <div class="whobox whobox1">
+        <div class="whobox whobox1" data-aos="fade-left">
             <h4>historia</h4>
             <p>Desde 2008, brindando servicios informáticos, asesoramiento, venta y reparación, 
                 nos encontramos al día de hoy, con vasta experiencia en el rubro.</p>
@@ -10,7 +10,7 @@
                 </p>
       
         </div>
-        <div class="whobox whobox2">
+        <div class="whobox whobox2" data-aos="fade-right">
             <h4>nuestro objetivo</h4>
             <p>Tenemos como objetivo brindar la mejor experiencia personalizada, antes, durante y post-venta.
                 Nuestros valores se basan en pilares fundamentales, tales como respeto y confianza,

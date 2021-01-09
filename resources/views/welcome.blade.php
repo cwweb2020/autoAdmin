@@ -13,9 +13,9 @@
              </section>
             <!--HERO -->
 
-             <!--WHOWEARE -->
+             <!--NOSOTROS -->
                 <x-whoweare/>
-             <!--WHOWEARE -->
+             <!--NOSOTROS -->
 
 
         <!--PRODUCTOS -->
@@ -24,7 +24,7 @@
                 Productos
             </h2>
 
-            <div class="alert alertCurso">
+            <div class="alert alertCurso" data-aos="fade-right">
                 <span><i class="fas fa-exclamation-circle"></i></span>  <span class="span2">¿Tenes alguna duda sobre nuestros productos o servicios?<span class="barra">|</span>Contactate para un ASESORAMIENTO PERSONALIZADO.</span>  
                </div>
                     <h2 class="titulodelista" style="margin: 0;" id="tituloproducto">
@@ -73,10 +73,10 @@
         <!--PRODUCTOS -->
 
          <!--PARALAX CON QUIENES SOMOS -->
+               
 
           <!--PARALAX CON QUIENES SOMOS -->
-     
-
+      
      <script>  
      // seccion 
 

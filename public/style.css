@@ -267,6 +267,8 @@ ul li{
     background: black;
     height: 80vh;
     font-family: 'Shadows Into Light', cursive;
+    border-radius: 9px;
+    overflow: hidden;
 }
 
 .productWrapper  .menuLista ul li{
@@ -415,6 +417,7 @@ footer{
     width: 100%;
     height: 90vh;
     color: white;
+    margin-top: 6rem;
 }
 .whowrap .whobox{
    height: 100%;
@@ -435,7 +438,7 @@ footer{
 .whowrap .whobox1 h4{
     text-transform: capitalize;
     color: yellow;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 .whowrap .whobox span{
     width: 100%;
@@ -453,19 +456,38 @@ footer{
 }
 .whowrap .whobox2 h4{
     color: green;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 4rem;
 }
 .whowrap .whobox2 span{
-    color: crimson;
+    color: #f96a04;
 }
 .whowrap .whobox2 p{
    font-weight: 600;
 }
 /*-----------------------QUIENES SOMOS---------*/
 
+/*-----------------------PARALLAX---------*/
+  .contenedorparalax{
+      width: 100%;
+      height: 80vh;
+  }
+  .contenedorparalax .paralax{
+      background-image: url(img/paralax.jpg);
+      width: 100%;
+      height: inherit;
+      background-size: cover;
+      position: absolute;
+      overflow: hidden;
+      transition: all 200ms ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+/*-----------------------PARALLAX---------*/
 
 
 

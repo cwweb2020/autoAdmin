@@ -22,7 +22,7 @@
                   </div>
                   <nav>
                       <a href="{{route('home.index')}}" class="hogar">Home</a>
-                      <a href="#" id="whoup">Quienes Somos</a>
+                      <a href="#" id="whoup">Nosotros</a>
                       <a href="#" id="produp">Productos</a>
                       <a href="{{route('contacto.contact')}}"><i class="far fa-envelope" style="font-size: 2.55rem"></i></a>
                   </nav>
