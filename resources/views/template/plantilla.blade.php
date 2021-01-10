@@ -11,7 +11,8 @@
       <!-- favicon -->
       <link rel="shortcut icon" type="image/png" href="{{asset('img/favicon.png')}}">
      <!-- Compiled and minified materialize CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+  
       <!-- AOS SCROLL EFFECT -->
      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
      <link rel="stylesheet" href="{{asset('style.css')}}">

@@ -73,7 +73,7 @@
         <!--PRODUCTOS -->
 
          <!--PARALAX CON QUIENES SOMOS -->
-               
+               <x-paralax/>
 
           <!--PARALAX CON QUIENES SOMOS -->
       
