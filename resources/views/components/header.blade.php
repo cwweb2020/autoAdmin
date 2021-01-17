@@ -2,7 +2,7 @@
     <!--barra de redes sociales-->
  <section class="headerTotal">
         <div class="barrita1">
-            <h4>Bienvenidos <span class="space">.</span> | <span class="space">.</span> <i class="fas fa-phone"></i> <span>341 3 663 127</span></h4> 
+            <h4>Bienvenidos <span class="space">..</span> | <span class="space">..</span> <span class="telefonito"><i class="fas fa-phone"></i></span> <span>341 3 663 127</span></h4> 
           <div class="barrita2">
             
              <a href="" target="_blank"><span><i class="fab fa-facebook-f f"></i></span></a>
@@ -17,7 +17,7 @@
           <section class="secNav">
            
              <div class="secNavwrapper">
-                  <div class="relleno">
+                  <div class="relleno z-depth-2">
                      <h1>3xperto.com</h1>
                   </div>
                   <nav>

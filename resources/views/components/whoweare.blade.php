@@ -15,11 +15,12 @@
             <p>Tenemos como objetivo brindar la mejor experiencia personalizada, antes, durante y post-venta.
                 Nuestros valores se basan en pilares fundamentales, tales como respeto y confianza,
                 garantizando satisfacción al 100% en la transacción que el usted desee realizar.</p>
-                      <span><i class="fas fa-laptop"></i></span>
+                     <!-- <span><i class="fas fa-laptop"></i></span> -->
+                      <span class="cajaraton"> <img src="{{asset('img/ratoncito.png')}}" alt="computadora" class=""></span>
                 <p> 3XPERTO le de desea una excelente estadía en nuestro sitio, esperamos ser útiles a sus requerimientos.
                    
                 </p>
-                <p style="text-align: center"><i> Muchas gracias por visitarnos.</i></p>
+                <p style="text-align: center; margin-top:2rem"><i> Muchas gracias por visitarnos.</i></p>
       
         </div>
   </section>

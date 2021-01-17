@@ -8,7 +8,7 @@
 
            <!--HERO -->
              <section class="hero">
-              <img src="{{asset('img/pc.bmp')}}" alt="computadora" class="responsive-img">
+              <img src="{{asset('img/pc.jpg')}}" alt="computadora" class="responsive-img">
            
              </section>
             <!--HERO -->
