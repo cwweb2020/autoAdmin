@@ -2,6 +2,9 @@
 .margenContacto{
     height: 21.23%;
 }
+body{
+    background-color: rgb(41 61 78);
+}
 
 /*-------------------------------------------contacto---*/
 
@@ -150,8 +153,8 @@
     border-bottom: 1px solid grey;
  }
  textarea{
-     min-height: 15em;
-     max-height: 17em;
+     min-height: 14rem;
+     max-height: 16rem;
      max-width: 100%;
      min-width: 100%;
  }
@@ -185,6 +188,7 @@ b{
 }
 .areaTexto{
     font-size: 1.6rem;
+    height: 16rem;
 }
 
 .sesion{

@@ -356,7 +356,7 @@ ul li{
 .tarjetasTotal .tarjetasWrapper{
     padding: 2rem;
     background: white;
-    box-shadow: 0 1px 3px grey;
+    box-shadow: 0 1px 10px 0px rgb(128 128 128 / 0.5);
     border-radius: 8px;
    /* width: calc(100% /3.6 - 20px);
     margin-bottom: 3rem; */
@@ -422,12 +422,26 @@ footer{
 /*---mi firma----*/
 
 /*-----------------------QUIENES SOMOS---------*/
+.titullodenosotros{
+    width: 100%;
+    height: 16vh;
+}
+.titullodenosotros h4{
+    margin: 0;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 600;
+}
 .whowrap{
     display: flex;
     width: 100%;
     height: 90vh;
     color: white;
-    margin: 6rem 0;
 }
 .whowrap .whobox{
    height: 100%;
@@ -491,34 +505,154 @@ footer{
 
 /*-----------------------PARALLAX---------*/
 
-  .contenedorparalax{
-      width: 100%;
-      height: 65vh;
-      overflow: hidden;
-      position: relative;
-  }
-  .contenedorparalax .paralax{
+ 
+ 
+  .contenedorparalax {
       background-image: url(img/paralax.jpg);
       width: 100%;
-      height: 100vh;
+      height: 65vh;
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
-      position: absolute;
-      top: 0;
-      left: 0;
+  }
+  .contenedorparalax .contactoFiltro{
+    width: 100%;
+    height: 100%;
+    /*background: rgb(43, 62, 80,.85); */
+     background-image:  linear-gradient(45deg, rgb(180 28 139 / 0.6), rgb(49 54 146 / 0.6)); 
+  }
+  .contenedorparalax .contactoFiltro .paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+  }
+  .contenedorparalax .contactoFiltro .paralax h3{
+      color: white;
+  }
+  .contenedorparalax .contactoFiltro .paralax h3{
+      font-size: 4rem;
+
+  }
+  .contenedorparalax .contactoFiltro .paralax p{
+      text-align: center;
+      margin-top: 2.5rem;
+      font-size: 2rem;
+      color: white;
+  }
+  .lineadelparalax{
+    border: 18px solid red;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: -78px;
+    top: 34%;
+    border-top: transparent;
+    border-right: transparent;
   }
 
-.contenedorparalax .paralax{
-    background-image: url(img/paralax.jpg);
-    background-size: cover;
-    height: 100vh;
-    position: absolute;
-    background-attachment: fixed;
 
+/*----------------------SERVICIOS------------------------*/
+   
+.contServ {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background:  linear-gradient(to top left, #0be9ec33, transparent,#cddc3985);
+}
+.contServ .serv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+    position: relative;
+}
+.contServ .serv1 .burbuja1{
+    width: 40rem;
+    height: 40rem;
+    background: linear-gradient(240deg, #0c52ef, aqua, rgb(0, 128, 0,.5));
+    border-radius: 50%;
+    position: absolute;
+    top: -18%;
+    left: -114px;
+    z-index: -1;
+}
+.contServ .serv1 .burbuja2{
+    width: 35rem;
+    height: 36rem;
+   /* background:  radial-gradient(white, rgba(0, 0, 255, 0.568));*/
+    background-image: linear-gradient(to top left, #a69af7,#7563f0);
+    box-shadow: 0 20px 20px rgb(0, 0, 0,.3), 0 0 50px rgb(0, 0, 0,.3);
+    background: linear-gradient(#940cef, rgba(0, 204, 255, 0.308), rgba(250, 242, 137, 0.5));
+    border-radius: 50%;
+    position: absolute;
+    top: 77%;
+    right: -29%;
+    z-index: -1;
+}
+.contServ .serv1 .burbuja3{
+    width: 15rem;
+    height: 16rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 27%;
+    right: -33% ;
+    background:  radial-gradient(white, rgba(0, 0, 255, 0.568));
+    box-shadow: 0 20px 20px rgb(0, 0, 0,.3), 0 0 50px rgb(0, 0, 0,.3);
+}
+.contServ .serv1 .contCompu{
+  /* background: linear-gradient(240deg, #0c52ef, aqua, rgb(0, 128, 0,.5)); */
+  padding: 2rem;
+  border-radius: 50%;
+  height: 30rem;
+  width: 30rem;
+  background:  radial-gradient(white, rgba(0, 0, 255, 0.568));
+  box-shadow: 0 20px 20px rgb(0, 0, 0,.3), 0 0 50px rgb(0, 0, 0,.3);
+  z-index: 1;
+  perspective: 1200px;
+}
+.contServ .serv1 .contCompu img{
+    width: 33rem;
+    transform-style: preserve-3d;
+   
 }
 
+.contServ .serv2{
+    flex-basis: 60%;
+    position: relative;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contServ .serv2 h3{
+    position: absolute;
+    top: 8%;
+    font-size: 4rem;
+}
+
+.contServ .serv2 .serv2Lista{}
+.contServ .serv2 .serv2Lista ul{
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contServ .serv2 .serv2Lista ul li{
+
+    font-weight: 600;
+}
+.simpleCheck{
+    margin-right: 1rem;
+}
+
+            
+
+/*----------------------SERVICIOS------------------------*/
 
 
 

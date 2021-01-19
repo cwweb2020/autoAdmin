@@ -14,7 +14,12 @@
             <!--HERO -->
 
              <!--NOSOTROS -->
+              <div class="titullodenosotros">
+                  <h4>Nuestros Objetivos :</h4>
+              </div>
+
                 <x-whoweare/>
+                
              <!--NOSOTROS -->
 
 
@@ -76,7 +81,13 @@
                <x-paralax/>
 
           <!--PARALAX CON QUIENES SOMOS -->
-      
+
+           <!---------SERVICIOS------->
+                     <x-Servicios/>
+                   
+            <!---------SERVICIOS------->
+
+
      <script>  
      // seccion 
 
@@ -115,6 +126,8 @@
       } 
     
     </script>
+
+  
 
 
     <x-footer/>

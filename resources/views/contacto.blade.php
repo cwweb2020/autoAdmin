@@ -8,12 +8,11 @@
  <div class="margenContacto">
      <!--div de margen-->
  </div>
-  
  @if (session('status'))
 
  <h4 class="sesion">{{ session('status') }}</h4>
  
-@endif
+@endif 
 
 <!--contacto-->
 <section class="contactoWrap">
@@ -21,7 +20,9 @@
   <div class="contactoFiltro">
 
 <section class="contacto" id="contactoabajo">
+
     <div class="contacto1 isolate"> 
+
        <h4>Contacto / Mas Info</h4> 
 
       <div class="contactotelefono">
