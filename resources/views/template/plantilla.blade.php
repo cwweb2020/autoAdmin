@@ -16,7 +16,7 @@
       <!-- AOS SCROLL EFFECT -->
      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
      <link rel="stylesheet" href="{{asset('style.css')}}">
-    <title>Pagina dedicada al armado y venta de computadoras</title>
+    <title>3xperto</title>
 </head>
 <body>
      

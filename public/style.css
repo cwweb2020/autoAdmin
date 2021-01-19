@@ -401,8 +401,61 @@ ul li{
 
 /*------------------------FOOTER----------*/
 footer{
-    height: 40vh;
-    background: black;
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    color: white;
+    background-color: black;
+}
+footer .foot1{
+    flex: 1;
+    padding: 2.5rem;
+}
+footer .foot1 p{
+    margin: 2rem 2rem 3rem 2rem;
+}
+footer .foot1 .redesfoot{
+    width: 82%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .foot1 .redesfoot .redf{
+    color: white;
+    background: #524d4d;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+}
+
+footer .foot2{
+   flex: 1;
+   padding: 2.5rem;
+}
+footer .foot2 ul{
+    margin: 2rem 1.2rem 1.2rem 1.2rem;
+}
+footer .foot2 ul li{
+    padding-bottom: 1rem;
+}
+
+footer .foot3{
+    flex: 1;
+    padding: 2.5rem;
+}
+footer .foot3 ul{
+    margin: 2rem;
+}
+footer .foot3 ul li{
+    padding: 1rem;
+    font-weight: 500;
+}
+footer .foot3 ul li span{
+    margin-right: 1.2rem;
+
+}
+.footitulo{
+    text-decoration: underline red 5px;
 }
 
 /*------------------------FOOTER----------*/
