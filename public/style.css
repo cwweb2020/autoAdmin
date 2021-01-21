@@ -456,6 +456,7 @@ footer .foot3 ul li span{
 }
 .footitulo{
     text-decoration: underline red 5px;
+    margin-bottom: 3.2rem;
 }
 
 /*------------------------FOOTER----------*/
@@ -688,7 +689,7 @@ footer .foot3 ul li span{
     font-size: 4rem;
 }
 
-.contServ .serv2 .serv2Lista{}
+
 .contServ .serv2 .serv2Lista ul{
     height: 34rem;
     display: flex;

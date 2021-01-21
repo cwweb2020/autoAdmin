@@ -25,7 +25,7 @@
 
         </div>
         <div class="foot3">
-            <h4 class="footitulo">Contactos</h4>
+            <h4 class="footitulo">Contacto</h4>
             <ul>
                 <li><span class="telefonito"><i class="fas fa-phone"></i></span>341 3 663 127</li>
                 <li><span><i class="fas fa-map-marker-alt"></i></span> San Martin 1500</li>

@@ -128,9 +128,11 @@
     </script>
 
   
-
+   <!--FOOTER-->
 
     <x-footer/>
+
+     <!--FOOTER-->
 
     <p class="micw">
         CW.Web <a href="bmx347@gmail.com">&copy</a>; 2021, All Rights Reserved.
