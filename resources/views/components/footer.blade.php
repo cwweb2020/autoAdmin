@@ -4,10 +4,10 @@
             <h4 class="footitulo">Sobre Nosotros</h4>
             <p>Desde 2008, brindando servicios informáticos, asesoramiento, venta y reparación, nos encontramos al día de hoy, con vasta experiencia en el rubro.</p>
             <div class="redesfoot">
-                <a href="" target="_blank"><span class="redf"><i class="fab fa-facebook-f"></i></span></a>
-                <a href=""><span class="redf"><i class="fab fa-instagram"></i></span></a>
-                <a href=""><span class="redf"><i class="fab fa-twitter"></i></span></a>
-                <a href=""><span class="redf"><i class="fab fa-pinterest"></i></span></a>
+                <a href="" target="_blank"><span class="redf redf1"><i class="fab fa-facebook-f"></i></span></a>
+                <a href=""><span class="redf redf2"><i class="fab fa-instagram"></i></span></a>
+                <a href=""><span class="redf redf3"><i class="fab fa-twitter"></i></span></a>
+                <a href=""><span class="redf redf4"><i class="fab fa-pinterest"></i></span></a>
 
             </div>
 

@@ -427,6 +427,18 @@ footer .foot1 .redesfoot .redf{
     padding: 1rem 2rem;
     font-size: 1.6rem;
 }
+footer .foot1 .redesfoot .redf1{
+    background-color: #3a579a;
+}
+footer .foot1 .redesfoot .redf2{
+    background-color: #8c5098;
+}
+footer .foot1 .redesfoot .redf3{
+    background-color:  #00abf0;
+}
+footer .foot1 .redesfoot .redf4{
+    background-color:#cd1c1f ;
+}
 
 footer .foot2{
    flex: 1;
