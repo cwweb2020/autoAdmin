@@ -164,14 +164,20 @@ ul li{
     flex: 1;
     background: rgb(0, 0, 0,0.8);
     border-right: 8px solid #639bf7;
+    height: 100%;
 }
 .secNav .secNavwrapper .relleno h1{
     font-family: 'Shadows Into Light', cursive;
-    text-align: center;
     color: #f5f20e;
     font-size: 4.7rem;
     letter-spacing: 1px;
     font-weight: 600;
+
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .secNav .secNavwrapper nav{
     height: inherit;
@@ -719,6 +725,34 @@ footer .foot3 ul li span{
             
 
 /*----------------------SERVICIOS------------------------*/
+
+/*----sticky-----*/
+/* .sticky{
+    position: fixed;
+    height: 12vh !important;
+    background-color: black !important;
+    transform: translateY(-40px);
+    z-index: 10;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

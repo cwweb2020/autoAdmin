@@ -18,6 +18,18 @@ contcard.addEventListener('mousemove',(e) =>{
 //})
 
 
-// Sweet alert
-window.Swal = require('sweetalert2')
+
+
+//sitcky
+//let menu = document.querySelector('.secNavwrapper')
+//let sticky = menu.offsetTop
+//console.log(sticky);
+//
+//window.onscroll= ()=>{
+  //if (window.pageYOffset >= sticky) {
+  //   menu.classList.add('sticky')
+  //} else {
+  //  menu.classList.remove('sticky')
+  //}
+//}
 
