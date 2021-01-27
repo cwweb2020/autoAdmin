@@ -9,7 +9,7 @@
      <!-- iconos de materialize -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!-- favicon -->
-      <link rel="shortcut icon" type="image/png" href="{{asset('img/favicon.png')}}">
+      <link rel="shortcut icon" type="image/png" href="{{asset('img/favicon.ico')}}">
      <!-- Compiled and minified materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
   

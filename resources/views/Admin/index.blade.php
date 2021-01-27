@@ -14,7 +14,9 @@
         @section('title', 'Administrador')
         
         
-        
+        @section('content_header')
+           <h1>Lista de Productos</h1>
+       @stop
         
         @section('content')
 

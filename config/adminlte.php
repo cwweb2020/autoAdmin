@@ -14,8 +14,8 @@ return [
     |
     */
 
-    'title' => '',
-    'title_prefix' => 'Agencia cars | ',
+    'title' => '3xperto',
+    'title_prefix' => '3xperto | ',
     'title_postfix' => '',
 
     /*
@@ -46,11 +46,11 @@ return [
     */
 
     'logo' => '<b>Administrador</b>',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.ico',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'AdminLTE',
+    'logo_img_alt' => '3xperto',
 
     /*
     |--------------------------------------------------------------------------
@@ -121,7 +121,7 @@ return [
     */
 
     'classes_body' => '',
-    'classes_brand' => 'bg-primary',
+    'classes_brand' => 'bg-secondary',
     'classes_brand_text' => '',
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
@@ -188,7 +188,7 @@ return [
 
     'use_route_url' => false,
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin',
 
     'logout_url' => 'logout',
 
@@ -244,7 +244,7 @@ return [
         [
             'text'        => 'Articulos',
             'url'         => 'admin',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'fas fa-list ',
             'label'       => '',
             'label_color' => 'success',
         ],
