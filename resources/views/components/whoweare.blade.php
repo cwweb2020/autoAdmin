@@ -4,8 +4,9 @@
             <h4>historia</h4>
             <p>Desde 2008, brindando servicios informáticos, asesoramiento, venta y reparación, 
                 nos encontramos al día de hoy, con vasta experiencia en el rubro.</p>
-                   <span><i class="fas fa-feather-alt"></i></span>
-                <p> En 3XPERTO usted puede encontrar, servicio técnico especializado,
+                   {{-- <span><i class="fas fa-feather-alt"></i></span> --}}
+                   <img src="{{asset('img/relojarena.png')}}" alt="relojarena" style="width: 100px">
+                <p style="margin-top: 1rem;"> En 3XPERTO usted puede encontrar, servicio técnico especializado,
                 la mejor propuesta al momento de armar un equipo y precios competitivos.
                 </p>
       
